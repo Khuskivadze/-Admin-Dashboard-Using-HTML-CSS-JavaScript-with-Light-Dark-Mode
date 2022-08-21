@@ -40,12 +40,15 @@
 .dark-theme-variables{
     --color-background:#181a1e;
     --color-white:#202528;
-    --color-dark:#ffff;    
+    --color-dark:white;    
     --color-dark-variant:#a3bdcc;
     --color-light:rgba(0, 0, 0, 0.4);
     --box-shadow:0 2rem 3rem var(--color-light);
 
 
+}
+.dark-theme-variables{
+    color: white;
 }
 html{
     font-size: 14px;
@@ -217,6 +220,9 @@ aside .sidebar .messanger-count{
 
 main{
     margin-top: 1.4rem;
+    
+
+    
 }
 main .date{
     display: block;
@@ -224,6 +230,7 @@ main .date{
     border-radius: var(--card-border-radius-1);
     margin-top: 1rem;
     padding: 0.5rem 1.6rem;
+   
 
 
 
@@ -237,6 +244,7 @@ main .insights{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.6rem;
+  
      
 }
 main .insights > div{
@@ -247,6 +255,8 @@ main .insights > div{
     transition: all 300ms ease;
     box-shadow: var(--box-shodow);
     cursor: pointer;
+    
+     
     
 
 
